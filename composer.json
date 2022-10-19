@@ -1,5 +1,5 @@
 {
-    "name": "riskio/oauth2-auth0",
+    "name": "lodge104/oauth2-auth0",
     "description": "Auth0 OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
