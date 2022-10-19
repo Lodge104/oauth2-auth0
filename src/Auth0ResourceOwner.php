@@ -23,12 +23,7 @@ class Auth0ResourceOwner implements ResourceOwnerInterface
      */
     public function getId()
     {
-        $id = $this->getValueByKey($this->response, 'user_id');
-        if(!$id) {
-            $id = $this->getValueByKey($this->response, 'sub');
-        }
-
-        return $id;
+        return $this->getValueByKey($this->response, 'sub');
     }
 
     /**
